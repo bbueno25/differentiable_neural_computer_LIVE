@@ -1,21 +1,34 @@
-# differentiable_neural_computer
+# Differentiable Neural Computer
 
-## Overview
+## Introduction
 
-This is the code for [this](https://youtu.be/r5XKzjTFCZQ) video on Youtube by Siraj Raval as part of the Deep Learning Nanodegree with Udacity. We're going to build a Differentiable Neural Computer capable of learning the mapping between binary inputs and outputs. The point of this demo is to break the DNC down to its bare essentials so we can really understand how the architecture works. This is the most complex network i've ever built. And it's dope AF.
+We're going to build a Differentiable Neural Computer capable of learning the mapping between binary inputs and outputs. The point of this demo is to break the DNC down to its bare essentials so we can really understand how the architecture works.
 
-## Dependencies
+DNCs can be viewed as a more general type of LSTM where the network learns how to use memory to understand data rather than attempting to learn the raw sequence relationships. This allows the network to be trained on a small amount of data and generalize to large amount of data without training, as well as handling inputs that were not necessarily seen during training --- a huge divergence from what was previously possible.
 
-* tensorflow
-* numpy
+These findings are facilitated by the novel framework of memory which is fully differentiable (thus the name). Because of this property, the memory structure is able to be coupled with a neural network and trained by gradient descent or any other optimization method.
 
-## Usage
+## Materials
 
-run `jupyter notebook` in terminal to see the code pop up in your browser.
+- Windows 10 Home
+- Python 3.6
+- Anaconda3 2020.07
+- Visual Studio 2019 Community
 
-Install jupyter [here](http://jupyter.readthedocs.io/en/latest/install.html)
+## Procedure
 
+run `python differentiable_neural_computer.py` in terminal.
 
-## Credits
+## Authors
 
-The credits for this code go to [claymcleod](https://github.com/claymcleod/tf-differentiable-neural-computer). I've merely created a wrapper to get people started. 
+- **B. Bueno** - [bbueno5000](https://github.com/bbueno5000)
+
+## Acknowledgements
+
+- [claymcleod](https://github.com/claymcleod)
+- [llSourcell](https://github.com/llSourcell)
+
+## References
+
+- [Video Tutorial](https://youtu.be/r5XKzjTFCZQ)
+- [Neural Turing Machines](https://arxiv.org/abs/1410.5401)
