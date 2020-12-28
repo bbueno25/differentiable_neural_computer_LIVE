@@ -10,12 +10,7 @@ These findings are facilitated by the novel framework of memory which is fully d
 
 ## Materials
 
-- Windows 10 Home
-- Python 3.6
-- Anaconda3 2020.07
-- Visual Studio 2019 Community
-
-## Procedure
+## Procedures
 
 run `python differentiable_neural_computer.py` in terminal.
 
@@ -27,8 +22,3 @@ run `python differentiable_neural_computer.py` in terminal.
 
 - [claymcleod](https://github.com/claymcleod)
 - [llSourcell](https://github.com/llSourcell)
-
-## References
-
-- [Video Tutorial](https://youtu.be/r5XKzjTFCZQ)
-- [Neural Turing Machines](https://arxiv.org/abs/1410.5401)
